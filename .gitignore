@@ -1,0 +1,113 @@
+# ============================================
+# Environment variables and secrets
+# ============================================
+.env
+*.env
+.env.local
+.env.*.local
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================
+# IDE and editor files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# Run outputs, logs, caches
+# ============================================
+runs/
+logs/
+*.log
+
+# ============================================
+# Temporary files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================
+# Model checkpoints and outputs
+# ============================================
+models/
+checkpoints/
+*.pkl
+*.joblib
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Build / test artifacts
+# ============================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Project-specific
+# ============================================
+site/
+.claude/
+reports/*.json

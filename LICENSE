@@ -1,0 +1,82 @@
+MAC Non-Commercial License
+Copyright (c) 2025 Rushil Thareja
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for non-commercial purposes only,
+subject to the following conditions:
+
+1. NON-COMMERCIAL USE ONLY
+   The Software may only be used for:
+   - Academic research and publications
+   - Educational purposes and coursework
+   - Personal projects and experimentation
+   - Non-profit organizations
+
+2. COMMERCIAL USE REQUIRES LICENSE
+   Any commercial use, including but not limited to:
+   - Use in commercial products or services
+   - Use by for-profit companies or entities
+   - Integration into proprietary software
+   - Offering the Software as a service (SaaS)
+   requires a separate commercial license. Contact rushil.thareja@mbzuai.ac.ae
+   for commercial licensing inquiries.
+
+3. ATTRIBUTION
+   The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+4. CITATION
+   Academic use must cite the associated paper:
+   Thareja et al. "MAC: Multi-Agent Constitution Learning for Generalizable
+   Text Annotation" (2025)
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+---
+
+# Commercial Licensing
+
+MAC is available under a dual license model.
+
+## Non-Commercial Use (Free)
+
+The Software is free for:
+- Academic research and publications
+- Educational purposes
+- Personal projects
+- Non-profit organizations
+
+See LICENSE for full terms.
+
+## Commercial Use (Paid License)
+
+For commercial use in products, services, or by for-profit entities,
+a separate commercial license is required.
+
+### What Requires a Commercial License?
+- Using MAC in commercial products or services
+- Integrating MAC into proprietary software
+- Offering MAC functionality as a service (SaaS)
+- Use by for-profit companies or entities
+- Any use that generates revenue directly or indirectly
+
+### Contact
+
+For commercial licensing inquiries:
+
+**Email**: rushil.thareja@mbzuai.ac.ae
+
+Please include:
+- Your company name
+- Intended use case
+- Expected scale of deployment
+
+We typically respond within 2-3 business days.

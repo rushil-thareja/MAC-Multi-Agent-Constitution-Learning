@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mac-prompt"
+version = "1.0.2"
+description = "MAC: Multi-Agent Constitution Learning — a general-purpose rule learning engine"
+readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [
+    {name = "Rushil Thareja"},
+]
+keywords = ["llm", "constitution", "rule-learning", "multi-agent", "optimization"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "openai>=1.0.0",
+    "pyyaml>=6.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.65.0",
+    "requests>=2.31.0",
+    "matplotlib>=3.5.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+cerebras = ["cerebras-cloud-sdk>=1.0.0"]
+data = ["pandas>=2.0.0"]
+docs = ["sphinx>=7.0.0", "sphinx-rtd-theme>=2.0.0"]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+]
+all = [
+    "mac-prompt[cerebras,data,docs,dev]",
+]
+
+[project.scripts]
+mac = "mac.cli:main"
+
+[project.urls]
+Homepage = "https://mac-prompt.com"
+Repository = "https://github.com/rushil-thareja/MAC-Multi-Agent-Constitution-Learning"
+Issues = "https://github.com/rushil-thareja/MAC-Multi-Agent-Constitution-Learning/issues"
+
+[tool.setuptools.packages.find]
+include = ["mac*"]
+
+[tool.setuptools.package-data]
+mac = ["prompts/*.md", "art.txt"]
