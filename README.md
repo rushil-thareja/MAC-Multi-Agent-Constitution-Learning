@@ -278,12 +278,16 @@ GSM8K tests multi-step arithmetic word problems. The Qwen3-8B baseline already s
 ---
 
 ## Citation
-
+Please cite the paper if you use MAC.
 ```bibtex
-@article{thareja2025mac,
-  title={MAC: Multi-Agent Constitution Learning for Generalizable Text Annotation},
-  author={Thareja, Rushil},
-  year={2025}
+@misc{thareja2026mac,
+  title={MAC: Multi-Agent Constitution Learning},
+  author={Thareja, Rushil and Gupta, Gautam and Pinto, Francesco and Lukas, Nils},
+  year={2026},
+  eprint={2603.15968},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2603.15968}
 }
 ```
 
